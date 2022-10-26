@@ -5,9 +5,6 @@ import logo from '../../../assets/img/logo.png'
 import '../../css/pages/home.css'
 
 export const Home = () => {
-
-      
-
       return (
             <div className='home'>
                   <section className="hero section-separation">
