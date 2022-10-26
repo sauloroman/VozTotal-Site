@@ -1,0 +1,55 @@
+/* ########################################## */
+/* NAVBAR */
+/* ########################################## */
+
+.header {
+      height: 12rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem 5rem;
+      width: 100%;
+      z-index: 999;
+      background-color: #fff;
+}
+
+.header__sticky {
+      position: fixed;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}     
+
+.header__logo {
+      display: flex;
+      align-items: center;
+}
+
+.header__logo img {
+      width: 12rem;
+}
+
+.navigation__list {
+      display: flex;
+      align-items: center;
+      gap: 2.5rem;
+}
+
+.navigation__link:link,
+.navigation__link:visited {
+      color: var(--color-black);
+      font-size: 1.8rem;
+      font-weight: 600;
+      padding: 1rem; 
+      transition: all .4s ease-out;
+}
+
+.navigation__link:hover, 
+.navigation__link:active {    
+      color: var(--color-red);    
+}
+
+.navigation__link.navigation__link--active {
+      background-color: var(--color-red);
+      color: var(--color-white);
+      padding: 1rem 2rem;
+      border-radius: 100px;
+}
