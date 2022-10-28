@@ -132,31 +132,12 @@
 }
 
 /* ################################### */
-/* BANNER */
-/* ################################### */
-
-.banner {
-      margin: 8rem 0;
-      height: 50rem;
-      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(46, 69, 122, 0.6) 100%), url('../../../assets/img/planet.jpg');
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-}
-
-.banner__text {
-      color: var(--color-white);
-      font-size: 4rem;
-      text-align: center;
-}
-
-/* ################################### */
 /* DEMOS */
 /* ################################### */
+
+.demos {
+      margin-bottom: 8rem;
+}
 
 .demos__list {
       display: grid;

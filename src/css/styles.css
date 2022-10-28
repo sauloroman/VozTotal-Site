@@ -31,6 +31,10 @@ body {
       line-height: 1.7;
 }
 
+img {
+      display: block;
+}
+
 a {
       display: inline-block;
       text-decoration: none;
@@ -93,4 +97,43 @@ ul {
 
 .btn:hover {
       background-color: #f23a3a;
+}
+
+.none {
+      display: none;
+}
+
+.show {
+      display: show;
+}
+
+/* ################################### */
+/* BANNER */
+/* ################################### */
+
+.banner {
+      height: 50rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.banner--home {
+      margin: 8rem 0;
+      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.6) 100%), url('../../../assets/img/planet.jpg');
+}
+
+.banner--about {
+      background-image: linear-gradient( to bottom right, rgba(46, 69, 122, 0.3) 0% , rgba(0, 0, 0, 0.7) 100%), url('../../../assets/img/bg-blue.jpg');
+}
+
+.banner__text {
+      color: var(--color-white);
+      font-size: 4rem;
+      font-weight: 300;
+      text-align: center;
 }

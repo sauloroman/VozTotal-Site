@@ -1,5 +1,4 @@
 import { DemosList, ServicesList } from '../components';
-
 import hero from '../../../assets/img/bg-purple.jpg';
 import logo from '../../../assets/img/logo.png'
 import '../../css/pages/home.css'
@@ -52,7 +51,7 @@ export const Home = () => {
                         </div>
                   </section>
 
-                  <section className="banner section-separation">
+                  <section className="banner banner--home section-separation">
                         <div className="container">
                               <p className='banner__text'>¡DEMO GRATUITO SEGÚN LAS OPERACIONES DE TU EMPRESA!</p>
                         </div>
