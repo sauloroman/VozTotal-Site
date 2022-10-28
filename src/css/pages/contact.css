@@ -1,0 +1,55 @@
+.contact{
+    padding: 5rem 0;
+}
+.contact__intro{
+    width: 60%;
+  font-size: 30px;
+  margin: 0 auto;
+  color: var(--color-red);
+}
+
+/* ################################### */
+/* FORM */
+/* ################################### */
+
+.contact__main{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .contact__mainSection {
+        width: 45%;
+    }
+    .schedule-p{
+        margin-left: 1rem;
+    }
+    
+}
+.mainSection__subtitle {
+    margin: 2rem auto;
+    color: var(--blue);
+  }
+  .mainSection_ul {
+    width: 100%;
+    text-align: justify;
+  }
+ 
+  
+  .phones_subtitle_info{
+      text-align: left;
+      margin-left: -1rem;
+      cursor: pointer;
+    }
+    .contact__schedule{
+        width: 100%;
+    }
+    .schedule-subtitle{
+      margin-left: 3rem;
+    }
