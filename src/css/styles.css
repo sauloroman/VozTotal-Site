@@ -45,7 +45,7 @@ ul {
 }
 
 .section-separation {
-      padding: 8rem 0;
+      margin-top: 10rem;
 }
 
 .heading__primary {
@@ -78,7 +78,7 @@ ul {
 }
 
 .container {
-      margin: 0 auto;
+      margin: 15rem auto;
       width: 120rem;
       max-width: 95%;
 }

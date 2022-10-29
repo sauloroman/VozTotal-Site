@@ -69,7 +69,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h3 className="mainSection_phones_subtitle">Correo electrónico</h3>
-                    <a>contacto@voztotal.com</a>
+                    <a className="mainSection_email" href="mailto: contacto@voztotal.mx">contacto@voztotal.mx</a>
                   </div>
                 </section>
                 <div className="contact__schedule">

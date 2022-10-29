@@ -5,7 +5,7 @@ import "../../css/pages/clients.css";
 export const Clients = () => {
   return (
     <>
-      <div className="section-separation">
+      <div className="section-separation section-separation-clients">
         <h1 className="heading__primary heading__primary-clients">
           Sin ustedes, VOZTOTAL no sería posible.
         </h1>

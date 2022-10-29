@@ -1,4 +1,9 @@
-
+.testimonial__card{
+  box-shadow: 0 5px 5px rgb(0 0 0 / 15%);
+}
+.testimonial__card:hover{
+  box-shadow: 0 5px 5px var(--color-font);
+}
 .testimonials__cardContainer{
     width: 90%;
     display: flex;

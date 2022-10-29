@@ -1,4 +1,5 @@
 .contact{
+  margin-top: 15rem;
     padding: 5rem 0;
 }
 .contact__intro{
@@ -22,6 +23,10 @@
     align-items: center;
     column-gap: 2rem;
   }
+  .contact__mainSection {
+    padding: 2rem;
+    box-shadow: 0 5px 5px var(--color-red);
+  }
 
   @media screen and (min-width: 768px) {
     .contact__mainSection {
@@ -32,9 +37,20 @@
     }
     
 }
+.mainSection_email{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-bg-black);
+}
+.mainSection_email:hover{
+  color: var(--color-red);
+
+}
 .mainSection__subtitle {
     margin: 2rem auto;
-    color: var(--blue);
+    color: var(--color-font);
+      font-size: 28px;
+      font-weight: 600;
   }
   .mainSection_ul {
     width: 100%;
@@ -47,9 +63,18 @@
       margin-left: -1rem;
       cursor: pointer;
     }
+
+    /* ================================= */
+    /* schedule */
+    /* ==================================== */
     .contact__schedule{
-        width: 100%;
+      margin-top: 10rem;
+      box-shadow: 0 5px 5px var(--color-red);
+        width: 50%;
     }
     .schedule-subtitle{
       margin-left: 3rem;
+      color: var(--color-font);
+      font-size: 30px;
+      font-weight: 600;
     }

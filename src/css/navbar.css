@@ -1,7 +1,12 @@
 /* ########################################## */
 /* NAVBAR */
 /* ########################################## */
-
+.navbar-toggler{
+      position: absolute;
+      right: 4rem;
+      top: 2rem;
+      
+  }
 .header {
       height: 12rem;
       display: flex;
