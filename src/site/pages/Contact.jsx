@@ -63,7 +63,7 @@ export const Contact = () => {
                         <strong>Oficina:</strong>(55) 888 02 100
                       </li>
                       <li className="section__ul_item">
-                        <strong>WhatsApp:</strong>(55) 6969 0965
+                        <strong>WhatsApp:</strong> <a href="https://wa.me/525569690965?text= " target="_blank">(55) 696 909 65</a>
                       </li>
                     </ul>
                   </div>
