@@ -12,12 +12,12 @@ export const About = () => {
                         <p className='mission__description'>Proveer las soluciones más confiables e innovadoras de tecnologías de información, seguridad informática y telecomunicaciones, para mejorar la experiencia y productividad de nuestros clientes empresariales y gubernamentales.</p>
                   </header>   
                   
-                  <main className="about container section-separation ">
+                  <main className="about containerG section-separation ">
                         <h2 className="heading__secondary">Propuesta de valor</h2>
 
-                        <div className="about__values">
+                        <div className="about__values ">
 
-                              <div className="value">
+                              <div className="value ">
                                     <div className="value__imageBox">
                                           <img 
                                                 src={ technologies } 
@@ -35,7 +35,7 @@ export const About = () => {
                                     </div>
                               </div>
 
-                              <div className="value value--left">
+                              <div className="value ">
                                     <div className="value__text value__text--blue">
                                           <h2 className='value__heading'>El mejor capital humano</h2>
                                           <ul className="value__list">

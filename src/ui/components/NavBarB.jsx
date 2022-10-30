@@ -15,12 +15,12 @@ export const NavBarB = () => {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className= "ms-auto">
-                  <Nav.Link as={Link} to="/home">Inicio</Nav.Link>
-                  <Nav.Link as={Link} to="/nosotros">Nosotros</Nav.Link>
-                  <Nav.Link as={Link} to="/clientes">Clientes</Nav.Link>
-                  <Nav.Link as={Link} to="/testimonios">Testimonios</Nav.Link>
-                  <Nav.Link as={Link} to="/politica">Politica de Privacidad</Nav.Link>
-                  <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/home">Inicio</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/nosotros">Nosotros</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/clientes">Clientes</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/testimonios">Testimonios</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/politica">Politica de Privacidad</Nav.Link>
+                  <Nav.Link onClick={() => window.scrollTo(0, 0)} as={Link} to="/contacto">Contacto</Nav.Link>
                 </Nav>
                   </Navbar.Collapse>
               </Container>

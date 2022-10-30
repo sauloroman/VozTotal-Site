@@ -48,6 +48,7 @@
 .value__heading {
       font-size: 3rem;
       margin-bottom: 2.5rem;
+      text-align: center;
 }
 
 .value__list {
