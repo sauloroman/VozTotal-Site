@@ -6,7 +6,7 @@ import "../../css/pages/testimonials.css";
 export const Testimonials = () => {
   return (
     <div className="section-separation container">
-      <h1 className="heading__primary heading__primary-center">Testimonios</h1>
+      <h1 className="heading__primary ">Testimonios</h1>
       <section className="testimonials__cardContainer">
         {testimonials.map((data) => (
           <Card style={{ width: "400px" }} className=" testimonial__card mb-4 mt-4" key={data.id}>

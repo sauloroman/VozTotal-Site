@@ -32,7 +32,7 @@ export const Footer = () => {
                     Oficina: <a href="tel: 5588802100">(55) 888 02 100</a>
                   </li>
                   <li className="footer__link">
-                    Whatsapp: <a href="tel: 6969 0965">(55) 6969 0965</a>
+                    Whatsapp: <a href="https://wa.me/525569690965?text= " target="_blank">(55) 696 909 65</a>
                   </li>
                 </ul>
               </div>

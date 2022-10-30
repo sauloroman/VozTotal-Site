@@ -24,8 +24,10 @@
     column-gap: 2rem;
   }
   .contact__mainSection {
+    height: 45rem;
     padding: 2rem;
     box-shadow: 0 5px 5px var(--color-red);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
   }
 
   @media screen and (min-width: 768px) {
@@ -70,11 +72,15 @@
     .contact__schedule{
       margin-top: 10rem;
       box-shadow: 0 5px 5px var(--color-red);
+      box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
         width: 50%;
     }
     .schedule-subtitle{
-      margin-left: 3rem;
-      color: var(--color-font);
-      font-size: 30px;
-      font-weight: 600;
+      padding-left: 1rem;
+      text-align: left !important;
+    }
+
+    .heading__primary-center{
+      margin: 0 auto;
+      width: fit-content;
     }

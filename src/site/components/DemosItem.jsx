@@ -6,7 +6,7 @@ export const DemosItem = ({image, title}) => {
                   className='demo'
                   key={title}>
                                     
-                  <Link to="/contacto">
+                  <Link to="/contacto" onClick={() => window.scrollTo(0, 0)}>
                         <div className='demo__imageBox'>
                               <img className='demo__image' src={ image } alt="Demo image" />
                         </div>

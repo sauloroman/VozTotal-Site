@@ -5,11 +5,11 @@ import "../../css/pages/contact.css";
 export const Contact = () => {
       return (
             <div className="contact">
-              <p className="contact__intro">¿ Tienes alguna duda o quieres un DEMO ?</p>
-              <h1 className="heading__secondary">Contáctanos</h1>
+              <p className="heading__primary heading__primary-center">¿ Tienes alguna duda o quieres un DEMO ?</p>
         
               <div className="contact__main">
                 <section className="contact__mainSection">
+              <h1 className="heading__secondary">Contáctanos</h1>
                   <Form>
                     <Form.Group className="mb-3">
                       <Form.Label>Nombre y Apellido</Form.Label>
@@ -39,7 +39,7 @@ export const Contact = () => {
                   </Form>
                 </section>
                 <section className="contact__mainSection">
-                  <h2 className="mainSection__subtitle">Información de VOZ TOTAL</h2>
+                  <h2 className="heading__secondary">Información de VOZ TOTAL</h2>
                   <h3>Dirección en: </h3>
                   <ul className="mainSection_ul">
                     <li className="section__ul_item">
@@ -73,7 +73,7 @@ export const Contact = () => {
                   </div>
                 </section>
                 <div className="contact__schedule">
-                  <h3 className="schedule-subtitle">Horario:</h3>
+                  <h3 className="heading__secondary schedule-subtitle">Horario:</h3>
                   <p className="schedule-p">
                     <strong>Lunes - Viernes:</strong> 9:00am - 6:00pm
                   </p>
