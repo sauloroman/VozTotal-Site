@@ -2,13 +2,13 @@ import { useState } from "react"
 
 export const ServiceItem = ({ title, description, icon, footer }) => {
 
-      const [showService, setShowService] = useState(false);
+      const [showService, setShowService] = useState(true);
 
       return (
             <li className='service'>
                   <header className='service__header'>
                         <h3 
-                              onClick={ () => setShowService(!showService) }
+                              onClick={ () => setShowService(true) }
                               className='heading__tertiary'>{ title }</h3>
                         <div className='service__iconBox'>
                               <i className={`bx bx-${icon } service__icon`}></i>

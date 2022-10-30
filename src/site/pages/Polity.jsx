@@ -17,7 +17,7 @@ export const Polity = () => {
                                     />
                               </div>
                               <p className="polity__information">
-                                    Esta Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita o hace una compra en <strong>www.voz-total6.webnode</strong> (denominado en lo sucesivo el "Sitio").
+                              Esta Política de privacidad describe cómo se recopila, utiliza y comparte su información personal cuando visita <strong>www.voztotal.mx</strong> (denominado en lo sucesivo el "Sitio").
                               </p>
                         </div>
                   </header>

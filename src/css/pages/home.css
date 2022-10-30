@@ -117,6 +117,8 @@
 
 .service__modal {
       transition: all .4s ease-out;
+      height: fit-content;
+      margin: auto auto;
       opacity: 0;
       font-size: 1.8rem;
       padding: 2rem;
