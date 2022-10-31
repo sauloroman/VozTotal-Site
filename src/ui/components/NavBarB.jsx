@@ -6,7 +6,7 @@ import logo from '../../../assets/img/logo.png'
 
 export const NavBarB = () => {
     return (
-            <Navbar   fixed="top" expand="lg" bg="light" variant="light">
+            <Navbar   fixed="top" expand="lg" bg="white" variant="light">
               <img className="nav-img"
                 src={logo}
                 alt="Logo de Voz Total"
