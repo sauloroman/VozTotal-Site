@@ -48,10 +48,18 @@
 
 .description__grid {
       display: grid;
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr;
       place-items: center;
 }
 
+@media screen and (min-width:768px) {
+.description__grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      place-items: center;
+}
+}
+      
 .description__image {
       display: flex;
       justify-content: center;
@@ -91,8 +99,17 @@
 
 .servicies__grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: 1fr;
       gap: 5rem;
+}
+
+@media screen and (min-width: 768px) {
+      .servicies__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5rem;
+      }
+      
 }
 
 .service__information {
@@ -148,15 +165,35 @@
 
 .demos {
       margin-bottom: 8rem;
+      
 }
 
 .demos__list {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 3rem;
+      padding: 0;
+      /* display: grid;
+      grid-template-columns: 1fr;
+      gap: 3rem; */
+}
+@media screen and (min-width: 768px) {
+      .demos__list {
+            display: flex;
+            flex-wrap: wrap;
+            
+      }
+      
+}
+@media screen and (min-width: 1440px) {
+      .demos__list {
+          
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 3rem;
+      }
+      
 }
 
 .demo {
+      width: 250px;
       overflow: hidden;
       border-radius: 9px;
       margin: 0 auto;
