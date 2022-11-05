@@ -1,8 +1,27 @@
 import { Link } from "react-router-dom";
 import { Col, Row } from "react-bootstrap";
 import "../../css/footer.css";
+import emailjs from '@emailjs/browser';
+import { useRef } from "react";
 
 export const Footer = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm ('gmailMessage', 'template_o9i20ra', e.target, 'GekHIjK3GW9rBETQE')
+      .then((result) => {
+          console.log(result.text);
+          alert('Mensaje enviado con éxito')
+      }, (error) => {
+          console.log(error.text);
+          alert(error.message)
+      });
+      e.target.reset();
+
+    }
   return (
     <Row className="footer m-0 p-2 pb-0 small-5 bg-dark text-white ">
       <div className="footer__grid">
@@ -77,15 +96,16 @@ export const Footer = () => {
               Déjanos tu correo para recibir información
             </h3>
 
-            <form className="footer__form">
+            <form id="form" ref={form} onSubmit={sendEmail} className="footer__form">
               <div className="footer__form-field">
-                <label htmlFor="email">Email</label>
-                <input type="email" placeholder="tucorreo@correo.com" />
+                <label for="email" htmlFor="email">Email</label>
+                <input id="email" type="email" name='email' placeholder="tucorreo@correo.com" />
               </div>
-              <button className="btn" type="submit">
+              <button value="Send Email" id="button" className="btn" type="submit">
                 Enviar
               </button>
             </form>
+            
           </div>
         </Col>
       </div>
